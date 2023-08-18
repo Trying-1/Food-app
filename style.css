@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    margin-top: 0;
+}
+.companyName {
+    position: static;
+    top: 0;
+    background-color: #333;
+    padding: 1rem 0;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trying-food {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding: 1rem;
+    z-index: 1; /* Ensure it's on top of other elements */
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    background-size: cover;
+    background-color:#549AAB
+    ;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 2rem);
+}
+
+.item img {
+    max-width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.order-btn {
+    background-color:#f1802d	;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#cart {
+    border-top: 2px solid #ccc;
+    padding-top: 2rem;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#checkout-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}

@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #123740;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -49,8 +49,7 @@ h2 {
     padding: 1rem;
     margin: 1rem;
     background-size: cover;
-    background-color:#549AAB
-    ;
+    background-color:#549AAB;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
